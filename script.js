@@ -20,7 +20,7 @@ nextBtn.addEventListener('click', () => {
   updateSlidePosition();
 });
 
-// Optional: autoplay every 5 seconds
+// Optional autoplay
 setInterval(() => {
   nextBtn.click();
 }, 5000);
